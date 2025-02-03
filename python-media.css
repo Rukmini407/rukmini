@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+    #navbar {
+        display: flex;
+    }
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+
+@media (max-width: 480px) {
+    #header {
+        flex-direction: column;
+    }
+
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar a {
+        padding: 10px 0;
+    }
+
+    #btn1, #btn2, #btn3 {
+        width: 100%;
+    }
+}
